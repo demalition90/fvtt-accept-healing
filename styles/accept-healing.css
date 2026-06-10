@@ -1,0 +1,44 @@
+/* Accept Healing - Module Styles */
+
+.accept-healing-card {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.accept-healing-card h3 {
+    color: #7cdc7c;
+    font-size: 1.1em;
+    margin: 0 0 4px 0;
+}
+
+.accept-healing-card p {
+    margin: 0 0 8px 0;
+    font-size: 0.95em;
+}
+
+.accept-heal-btn {
+    background: linear-gradient(to bottom, #4a8a4a, #2d6b2d);
+    border: 1px solid #2d6b2d;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.95em;
+    padding: 6px 12px;
+    width: 100%;
+    transition: background 0.15s ease;
+}
+
+.accept-heal-btn:hover {
+    background: linear-gradient(to bottom, #5aaa5a, #3d8b3d);
+}
+
+.accept-heal-btn:active {
+    background: #2d6b2d;
+}
+
+.accept-heal-btn i {
+    margin-right: 5px;
+    color: #ff6b6b;
+}
