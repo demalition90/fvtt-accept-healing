@@ -1,0 +1,24 @@
+{
+    "id": "fvtt-accept-healing",
+    "title": "Accept Healing",
+    "description": "Lets healers offer healing to other players via interactive chat buttons. System agnostic.",
+    "version": "1.0.0",
+    "authors": [
+          {
+                  "name": "demalition90",
+                  "url": "https://github.com/demalition90"
+          }
+    ],
+    "compatibility": {
+          "minimum": "12",
+          "verified": "13",
+          "maximum": "13"
+    },
+    "esmodules": ["scripts/accept-healing.js"],
+    "styles": ["styles/accept-healing.css"],
+    "url": "https://github.com/demalition90/fvtt-accept-healing",
+    "manifest": "https://raw.githubusercontent.com/demalition90/fvtt-accept-healing/main/module.json",
+    "download": "https://github.com/demalition90/fvtt-accept-healing/releases/latest/download/fvtt-accept-healing.zip",
+    "readme": "https://raw.githubusercontent.com/demalition90/fvtt-accept-healing/main/README.md",
+    "license": "https://raw.githubusercontent.com/demalition90/fvtt-accept-healing/main/LICENSE"
+}
